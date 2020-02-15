@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background:none;
+    width:1400px;
+    height:3200px;
+    margin:0 auto;
+}
+/**Navigation bar started from here**/
+nav{
+    background:none;
+    height:80px;
+}
+.nav_bar li{
+    float:left;
+    list-style: none;
+    margin-left:170px;
+    font-size:26px;
+    margin-top:20px;
+}
+.nav_bar li:hover{
+    color:red;
+    border-top: 2px solid orange;
+    border-radius: 30px;
+    padding: 2px;
+    box-shadow: 0 0 100px orange;
+}
+.na_bar li:visited{
+    color:orange;
+    text-shadow: 0 0 5px black;
+}
+.nav_bar li:active{
+    color: blue;
+    text-shadow: 0 0 5px orange;
+}
+.nav_logo img{
+    height: 50px;
+    width:120px;
+    float:left;
+    margin-left:15px;
+    margin-top:6px;
+
+}
+/**First section started from here**/
+#emty{
+    height: 100px;
+}
+.main_cover_section{
+    background-image: url(img/cover.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 1400px;
+}
+.title{
+    margin-top:0px;
+    margin-left: 530px;
+    font-size:22px;
+    color: rgb(255, 255, 255);
+    margin-bottom:80px;
+}
+.title h3{
+    color:orange;
+    text-shadow: 0 0 10px black;
+}
+.title h1 b{
+    color: red;
+    font-size: 60px;
+}
+/**article of famous writer**/
+.article_table{
+    width: 1200px;
+    margin-left: 100px;
+    margin-top:40px;
+    margin-bottom:50px;
+}
+table td{
+    border-left: 3px solid red;
+    border-right:3px solid red;
+    color: white;
+}
+table th{
+    color:orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:24px;
+}
+/**follow link**/
+.follow_link h3{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(orange 50%,red);
+    color:white;
+    width: 126px;
+    height: 20px;
+    margin-top: 60px;
+    margin-left: 639px;
+    margin-right:639px;
+    padding:20px;
+
+}
+.follow_link h3:hover{
+    color: white;
+    background: linear-gradient(45deg,green,lightgreen,blue);
+    box-shadow: 0 0 100px orange;
+}
+.follow_link2{
+    margin-left: 220px;
+}
+.follow_link2 li{
+    list-style: none;
+    font-size:30px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    text-decoration:underline;
+    text-align: center;
+}
+.follow_link2 li:hover{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+ul img{
+    height: 40px;
+}
+
+/**second section started from here**/
+.second_section{
+    width: 1400px;
+    height:0px;
+}
+.second_section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top:30px;
+    float: left;
+    box-shadow: 0 0 200px orange;
+}
+.second_section article{
+    float:left;
+    height: 300px;
+    width: 700px;
+    font-size: 31px;
+    font-family: Edwardian Script itc;
+    margin-right: 100px;
+    margin-left: 60px;
+    margin-top: 30px;
+    border-right: solid px orange;
+    border-left: 0px solid orange;
+    border-radius: 0%;
+    padding-left:0px;
+    padding-right:0px ;
+    box-shadow: 0 0 500px orange;
+   
+}
+.second_section article h4{
+    box-shadow: 0 0 100px orange inset;
+   
+}
+.second_section article h1{
+    margin-left: 105px;
+    letter-spacing: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration:underline orange ;
+    margin-bottom: 10px;
+}
+
+/**Third section started from here**/
+.third_section{
+    height: 400px;
+    width: 1400px;
+}
+.third_left img{
+    height: 270px;
+    width: 380px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 60px;
+
+}
+.third_section article{
+    width: 600px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+    box-shadow: 0;
+    border: 0px solid silver;
+    border-radius: 10px;
+}
+.third_section div img{
+    width: 370px;
+    height: 300px;
+    float: left;
+    margin-top: 40px;
+    
+}
+.third_section article h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    text-shadow:0 0 10px black;
+}
+
+/**Fourth section started from here**/
+.sec_four{
+    height: 800px;
+    width: 1400px;
+}
+.sec_four header{
+    font-size: 46px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    box-shadow: 0 0 100px orange;
+    height: 60px;
+    width: 1000px;
+    text-align: center;
+    border: 0px solid silver;
+    border-top-left-radius:30px;
+}
+.sec_four img{
+    width: 450px;
+    height: 350px;
+    margin-left:10.5px;
+    margin-top: 20px;
+    box-shadow: 0 0 100px orange;
+}
+.sec_four table{
+    background: orange;
+    border-right:6px solid white;
+    border-left:6px solid white;
+    margin-left: 10px;
+    margin-right:10px;
+    box-shadow:0 0 100px orange;
+}
+.sec_four table th{
+    color: white;
+    font-size: 36px;
+    border-right:6px solid white;
+    border-left:6px solid white;
+    text-shadow: 0 0 10px red;
+    
+}
+.sec_four table td{
+    color:black;
+    border:none;
+    border-right:6px solid white;
+    border-left:6px solid white;
+    padding: 8px;
+}
+.sec_four table td:hover{
+    transition: 0s;
+    font-size: 20px;
+    background: brown;
+    color: white;
+    width: 427px;
+}
+/**fifth section started from here**/
+.sec_five{
+    margin-top:260px;
+    border-top: red solid 4px;
+    width: 1400px;
+}
+.sec_five header{
+    font-size: 46px;
+}
+.sec_five p{
+    font-family:Brush Script std Medium;
+    font-size: 20px;
+}
+.sec_five img{
+    height: 200px;
+    width: 260px;
+    margin-left: 16.5px;
+    float: left;
+    box-shadow: 0 0 160px orange;
+}
+.sec_five ul li{
+    list-style: none;
+    float: left;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4px;
+    background: linear-gradient(orange 80%,red);
+    border: 0px solid orange;
+    border-radius: 10px;
+    width:260px;
+    margin-left: 16.5px;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 0 0 100px orange;
+}
+.sec_five ul li:hover{
+    background: linear-gradient(90deg,orange,red);
+    color: white;
+}
+/**six section started from here.**/
+.sec_six{
+    margin-top:280px;
+    border-top: 4px solid red;
+    width: 1400px;
+}
+.sec_six header{
+    font-size: 35px;
+}
+.sec_six h2{
+    float: left;
+    letter-spacing: 4px;
+    line-height:100px ;
+    width:110px;
+    margin-top:90px;
+    margin-left: 140px;
+    font-size: 36px;
+    font-family: Edwardian Script itc;
+    box-shadow: 0 0 100px orange;
+}
+.sec_six h2 p{
+    box-shadow: 0 0 100px orange inset;
+}
+.article1{
+    font-size: 25px;
+    font-family: Brush Script std Medium;
+    float: left;
+}
+.article2{
+    font-size: 25px;
+    font-family: Brush Script std Medium;
+    float: left;
+    margin-top: 10px;
+}
+.sec_six article{
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 150px;
+    box-shadow: 0 0 150px orange;
+
+}
+.article1 p{
+    box-shadow: 0 0 100px orange inset;
+}
+.article2 p{
+    box-shadow: 0 0 100px orange inset;
+}
+.left_img1 img{
+    float:left;
+    margin-left: 100px;
+    margin-top: 40px;
+    width:250px;
+    height:250px;
+    border-radius: 100%;
+    box-shadow: 0 0 150px orange;
+}
+.left_img2 img{
+    float:left;
+    margin-left: 100px;
+    margin-top: 30px;
+    width:250px;
+    height:250px;
+    border-radius:100%;
+    box-shadow: 0 0 150px orange;
+}
+/**This is a footer of home page**/
+footer{
+    margin-left:0px;
+    margin-top: 600px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: orange;
+    width: 1400px;
+}
